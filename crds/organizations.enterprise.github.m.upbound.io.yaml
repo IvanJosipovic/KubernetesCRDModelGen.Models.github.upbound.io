@@ -7,11 +7,11 @@ metadata:
 spec:
   group: enterprise.github.m.upbound.io
   names:
+    kind: Organization
     categories:
     - crossplane
     - managed
     - github
-    kind: Organization
     listKind: OrganizationList
     plural: organizations
     singular: organization

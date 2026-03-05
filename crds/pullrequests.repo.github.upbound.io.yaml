@@ -7,11 +7,11 @@ metadata:
 spec:
   group: repo.github.upbound.io
   names:
+    kind: PullRequest
     categories:
     - crossplane
     - managed
     - github
-    kind: PullRequest
     listKind: PullRequestList
     plural: pullrequests
     singular: pullrequest

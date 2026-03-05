@@ -7,11 +7,11 @@ metadata:
 spec:
   group: repo.github.upbound.io
   names:
+    kind: BranchProtection
     categories:
     - crossplane
     - managed
     - github
-    kind: BranchProtection
     listKind: BranchProtectionList
     plural: branchprotections
     singular: branchprotection

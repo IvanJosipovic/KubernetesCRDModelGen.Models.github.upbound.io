@@ -7,11 +7,11 @@ metadata:
 spec:
   group: enterprise.github.upbound.io
   names:
+    kind: OrganizationRuleset
     categories:
     - crossplane
     - managed
     - github
-    kind: OrganizationRuleset
     listKind: OrganizationRulesetList
     plural: organizationrulesets
     singular: organizationruleset

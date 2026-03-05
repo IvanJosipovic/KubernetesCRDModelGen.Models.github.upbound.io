@@ -7,11 +7,11 @@ metadata:
 spec:
   group: github.upbound.io
   names:
+    kind: ProviderConfigUsage
     categories:
     - crossplane
     - provider
     - github
-    kind: ProviderConfigUsage
     listKind: ProviderConfigUsageList
     plural: providerconfigusages
     singular: providerconfigusage

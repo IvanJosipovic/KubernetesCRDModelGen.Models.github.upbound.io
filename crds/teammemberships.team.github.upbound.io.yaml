@@ -7,11 +7,11 @@ metadata:
 spec:
   group: team.github.upbound.io
   names:
+    kind: TeamMembership
     categories:
     - crossplane
     - managed
     - github
-    kind: TeamMembership
     listKind: TeamMembershipList
     plural: teammemberships
     singular: teammembership

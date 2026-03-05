@@ -7,11 +7,11 @@ metadata:
 spec:
   group: team.github.m.upbound.io
   names:
+    kind: TeamSettings
     categories:
     - crossplane
     - managed
     - github
-    kind: TeamSettings
     listKind: TeamSettingsList
     plural: teamsettings
     singular: teamsettings

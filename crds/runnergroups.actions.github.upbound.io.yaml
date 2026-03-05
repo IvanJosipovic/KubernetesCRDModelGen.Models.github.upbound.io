@@ -7,11 +7,11 @@ metadata:
 spec:
   group: actions.github.upbound.io
   names:
+    kind: RunnerGroup
     categories:
     - crossplane
     - managed
     - github
-    kind: RunnerGroup
     listKind: RunnerGroupList
     plural: runnergroups
     singular: runnergroup

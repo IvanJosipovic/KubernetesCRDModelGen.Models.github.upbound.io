@@ -7,11 +7,11 @@ metadata:
 spec:
   group: repo.github.m.upbound.io
   names:
+    kind: EnvironmentDeploymentPolicy
     categories:
     - crossplane
     - managed
     - github
-    kind: EnvironmentDeploymentPolicy
     listKind: EnvironmentDeploymentPolicyList
     plural: environmentdeploymentpolicies
     singular: environmentdeploymentpolicy

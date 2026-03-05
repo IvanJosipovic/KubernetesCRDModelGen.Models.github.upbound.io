@@ -7,11 +7,11 @@ metadata:
 spec:
   group: repo.github.upbound.io
   names:
+    kind: DeployKey
     categories:
     - crossplane
     - managed
     - github
-    kind: DeployKey
     listKind: DeployKeyList
     plural: deploykeys
     singular: deploykey
