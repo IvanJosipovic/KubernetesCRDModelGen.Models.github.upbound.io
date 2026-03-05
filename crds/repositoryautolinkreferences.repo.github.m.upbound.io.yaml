@@ -7,11 +7,11 @@ metadata:
 spec:
   group: repo.github.m.upbound.io
   names:
+    kind: RepositoryAutolinkReference
     categories:
     - crossplane
     - managed
     - github
-    kind: RepositoryAutolinkReference
     listKind: RepositoryAutolinkReferenceList
     plural: repositoryautolinkreferences
     singular: repositoryautolinkreference

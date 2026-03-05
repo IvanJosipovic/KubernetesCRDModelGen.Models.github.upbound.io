@@ -7,11 +7,11 @@ metadata:
 spec:
   group: repo.github.upbound.io
   names:
+    kind: Branch
     categories:
     - crossplane
     - managed
     - github
-    kind: Branch
     listKind: BranchList
     plural: branches
     singular: branch

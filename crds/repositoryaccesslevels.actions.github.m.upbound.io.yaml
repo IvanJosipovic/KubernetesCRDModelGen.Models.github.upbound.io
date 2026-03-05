@@ -7,11 +7,11 @@ metadata:
 spec:
   group: actions.github.m.upbound.io
   names:
+    kind: RepositoryAccessLevel
     categories:
     - crossplane
     - managed
     - github
-    kind: RepositoryAccessLevel
     listKind: RepositoryAccessLevelList
     plural: repositoryaccesslevels
     singular: repositoryaccesslevel

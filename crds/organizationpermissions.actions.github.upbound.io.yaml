@@ -7,11 +7,11 @@ metadata:
 spec:
   group: actions.github.upbound.io
   names:
+    kind: OrganizationPermissions
     categories:
     - crossplane
     - managed
     - github
-    kind: OrganizationPermissions
     listKind: OrganizationPermissionsList
     plural: organizationpermissions
     singular: organizationpermissions

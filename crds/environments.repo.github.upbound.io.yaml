@@ -7,11 +7,11 @@ metadata:
 spec:
   group: repo.github.upbound.io
   names:
+    kind: Environment
     categories:
     - crossplane
     - managed
     - github
-    kind: Environment
     listKind: EnvironmentList
     plural: environments
     singular: environment

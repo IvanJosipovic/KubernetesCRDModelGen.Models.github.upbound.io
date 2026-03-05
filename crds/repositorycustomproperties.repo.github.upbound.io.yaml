@@ -7,11 +7,11 @@ metadata:
 spec:
   group: repo.github.upbound.io
   names:
+    kind: RepositoryCustomProperty
     categories:
     - crossplane
     - managed
     - github
-    kind: RepositoryCustomProperty
     listKind: RepositoryCustomPropertyList
     plural: repositorycustomproperties
     singular: repositorycustomproperty

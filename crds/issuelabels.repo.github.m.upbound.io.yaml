@@ -7,11 +7,11 @@ metadata:
 spec:
   group: repo.github.m.upbound.io
   names:
+    kind: IssueLabels
     categories:
     - crossplane
     - managed
     - github
-    kind: IssueLabels
     listKind: IssueLabelsList
     plural: issuelabels
     singular: issuelabels

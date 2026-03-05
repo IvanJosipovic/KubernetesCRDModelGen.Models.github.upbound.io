@@ -7,11 +7,11 @@ metadata:
 spec:
   group: team.github.upbound.io
   names:
+    kind: TeamSyncGroupMapping
     categories:
     - crossplane
     - managed
     - github
-    kind: TeamSyncGroupMapping
     listKind: TeamSyncGroupMappingList
     plural: teamsyncgroupmappings
     singular: teamsyncgroupmapping

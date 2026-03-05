@@ -7,11 +7,11 @@ metadata:
 spec:
   group: repo.github.upbound.io
   names:
+    kind: RepositoryCollaborator
     categories:
     - crossplane
     - managed
     - github
-    kind: RepositoryCollaborator
     listKind: RepositoryCollaboratorList
     plural: repositorycollaborators
     singular: repositorycollaborator

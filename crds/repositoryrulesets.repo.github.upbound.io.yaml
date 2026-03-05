@@ -7,11 +7,11 @@ metadata:
 spec:
   group: repo.github.upbound.io
   names:
+    kind: RepositoryRuleset
     categories:
     - crossplane
     - managed
     - github
-    kind: RepositoryRuleset
     listKind: RepositoryRulesetList
     plural: repositoryrulesets
     singular: repositoryruleset

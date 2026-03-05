@@ -7,11 +7,11 @@ metadata:
 spec:
   group: repo.github.upbound.io
   names:
+    kind: RepositoryFile
     categories:
     - crossplane
     - managed
     - github
-    kind: RepositoryFile
     listKind: RepositoryFileList
     plural: repositoryfiles
     singular: repositoryfile
